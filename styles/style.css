@@ -87,12 +87,65 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items:center;
-background-color: violet;
 }
 
 .services p{
     width:60%;
 }
 
+#whatsOn h2{
+    border-bottom: 4px solid #1AB16A;
+    width: 15%;
+    margin: auto;
+    padding-bottom: 5px;
+
+}
+
+.services h3{
+    color: #1AB16A;
+    font-size: 1.5rem;
+}
+
+#kanye{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #1AB16A;
+    margin: 0 30px;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+#kanye h2{
+    border-bottom: 4px solid white;
+    width:fit-content;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    
+}
+
+#kanye div{
+    width: 60%;
+}
+
+
+#kanye img{
+    width: 10%;
+}
+
+#kanye p{
+    width:60%;
+    font-weight:100px;
+}
+
+#kanye div *{
+    padding: 20px;
+}
+
+#spotifyLogo{
+    position: absolute;
+    }
 
 
